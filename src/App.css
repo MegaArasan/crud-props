@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.home {
+  background-image: linear-gradient(
+    to right top,
+    #00f288,
+    #00e0ca,
+    #00c7ff,
+    #00a7ff,
+    #007cff,
+    #9564ed,
+    #d141c9,
+    #f40099,
+    #ff3a67,
+    #ff7935,
+    #ffb000,
+    #d7e017
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.adduser {
+  padding: 15px;
+}
+.pic {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 30, 30);
+  height: 92.3vh;
+}
