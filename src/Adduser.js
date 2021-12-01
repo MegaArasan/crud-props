@@ -5,7 +5,7 @@ import { useHistory } from "react-router";
 
 export function Adduser({ users, setusers }) {
   const history = useHistory();
-
+// making state  null at start
   const [name, setname] = useState("");
   const [avatar, setavatar] = useState("");
   const [fullname, setfullname] = useState("");

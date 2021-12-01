@@ -5,7 +5,7 @@ import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
-import {useHistory} from "react-router";
+import { useHistory } from "react-router";
 
 export function Users({
   name,
@@ -32,7 +32,6 @@ export function Users({
             <InfoIcon />
           </IconButton>
         </div>
-        
       </CardActions>
       <Typography variant="h6">
         <b>ROLE:</b>

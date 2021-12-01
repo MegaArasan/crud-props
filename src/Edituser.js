@@ -33,6 +33,7 @@ export function Edituser({ users, setusers }) {
       jerseyno: jerseyno,
     };
     console.log(updateuser);
+    // making the array into copyuser list
     const copyuserList = [...users];
     copyuserList[id] = updateuser;
     setusers(copyuserList);
@@ -52,6 +53,7 @@ export function Edituser({ users, setusers }) {
       <TextField
         id="avatar"
         label="Avatar"
+        // default value
         value={avatar}
         variant="standard"
         onChange={(event) => setavatar(event.target.value)}
